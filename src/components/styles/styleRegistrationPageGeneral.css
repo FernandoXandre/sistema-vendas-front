@@ -1,0 +1,83 @@
+.register-page-container{
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.line-top{
+    border-top: 2px solid rgb(183, 183, 183);
+    padding: 20px 0;
+}
+
+.forms-wrapper{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title{
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.top-container{
+    display: flex;
+}
+.tabs-container{
+    margin: auto;
+}
+
+.btnBack-container{
+    padding: 10px;
+}
+
+.btnBack{
+    color: white;
+    background-color: rgb(43, 43, 43);
+    padding: 5px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/*###### Styles internal forms ###### */
+
+.form-card{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.id-container{
+    gap: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    Input{
+
+        flex:1;
+        width: 100%;
+    }
+}
+.radio-group{
+    display: flex;
+    gap:15px;
+    
+    label{
+        font-size: 1em;
+    }
+}
+
+/* ########## Styles Tables ########## */
+
+.table{
+   white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    text-align: center;
+    vertical-align: middle;
+}
