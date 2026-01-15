@@ -5,6 +5,8 @@ import FormularioProduto from '../modules/produto/views/FormularioProduto.jsx';
 
 import ListarVendas from '../modules/venda/view/ListarVendas.jsx';
 import FormularioVenda from '../modules/venda/view/FormularioVenda.jsx';
+import ListarMateriais from "../modules/material/views/ListarMateriais.jsx";
+import FormularioMaterial from "../modules/material/views/FormularioMaterial.jsx";
 function AppRoutes() {
     return (
         <Routes>
@@ -17,6 +19,9 @@ function AppRoutes() {
             <Route path="/vendas" element={< ListarVendas />} />
             <Route path="/vendas/novo" element={< FormularioVenda />} />
             <Route path="/vendas/editar/:id" element={< FormularioVenda />} />
+            
+            {/* ======================== Materiais ======================== */}
+            <Route path="/materiais" element={<FormularioMaterial/>}/>
         </Routes>
     );
 }
