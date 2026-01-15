@@ -13,15 +13,17 @@ function AppRoutes() {
             {/* ======================== Produtos ======================== */}
             <Route path="/produtos" element={<ListarProdutos />} />
             <Route path="/produtos/novo" element={<FormularioProduto />} />
-            <Route path="/produtos/editar/:id" element={<FormularioProduto />} />
+            <Route path="/produtos/editar" element={<FormularioProduto />} />
 
             {/* ======================== Vendas ======================== */}
             <Route path="/vendas" element={< ListarVendas />} />
             <Route path="/vendas/novo" element={< FormularioVenda />} />
-            <Route path="/vendas/editar/:id" element={< FormularioVenda />} />
+            <Route path="/vendas/editar" element={< FormularioVenda />} />
             
             {/* ======================== Materiais ======================== */}
             <Route path="/materiais" element={<FormularioMaterial/>}/>
+            <Route path="/materiais/novo" element={<FormularioMaterial/>}/>
+            <Route path="/materiais/editar" element={<FormularioMaterial/>}/>
         </Routes>
     );
 }
